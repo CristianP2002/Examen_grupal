@@ -6,8 +6,8 @@ section.videos {
 }
 
 div.grupo1 {
-    background-color: ;
-    margin: auto;
+    margin: 0 auto;
+    align-items: center;
     width: 100%;
     height: 100%;
 }
@@ -20,9 +20,10 @@ margin: 20px;
 }
 
 div.video1 {
-    margin: 100px;
+    margin: 0px 100px;
     border: 1px solid white;
     width: 560px;
+    display: inline-block;
 }
 
 h1.s1000rr {
@@ -33,12 +34,10 @@ h1.s1000rr {
 }
     
 div.video2 {
-        margin: 50px;
-        margin-left: 840px;
-        margin-top: -507.7px;
-        border: 1px solid white;
-        width: 560px;
-        position: relative;
+    margin: 100px;
+    border: 1px solid white;
+    width: 560px;
+    display: inline-block;
 }
 
 h1.titulo {
@@ -58,15 +57,15 @@ footer.legend {
 
 figure.kawasaki {
     background: url(../IMG/kawasaki.png) no-repeat center /contain;
-    width: 450px;
+    width: 300px;
     height: 500px;
-    margin-left: 130px;
+    margin-left: 150px;
 }
 
 figure.bmw {
     background: url(../IMG/bmw.png) no-repeat center /contain;
-    width: 450px;
+    width: 300px;
     height: 500px;
-    margin-left: 900px;
+    margin-left: 1350px;
     margin-top: -513px;
 }
